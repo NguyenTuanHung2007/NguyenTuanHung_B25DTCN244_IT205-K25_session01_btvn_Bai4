@@ -1,0 +1,12 @@
+patient_record = input('Nhập mã bệnh nhân: ')
+temperature = float(input('Nhập nhiệt độ cơ thể: '))
+heart_rate = int(input('Nhập nhịp tim: '))
+typeof_temperature = type(temperature)
+typeof_heart_rate = type(heart_rate)
+
+print('--- KẾT QUẢ CHUẨN HOÁ DỮ LIỆU ---')
+print(f'Mã bệnh nhân: {patient_record} ')
+print(f'Nhiệt độ cơ thể: {temperature} độ C')
+print(f'Kiểu dữ liệu hệ thống ghi nhận {typeof_temperature}')
+print(f'Nhịp tim: {heart_rate} nhịp / phút')
+print(f'Kiểu dữ liệu hệ thống ghi nhận {typeof_heart_rate}')
